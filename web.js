@@ -4,6 +4,7 @@
 
 var express = require('express');
 var routes = require('./routes');
+var path = require('path');
 
 /**
  * Make app
@@ -19,6 +20,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.logger());
 app.use(express.bodyParser());
+app.use(express.static(path.join(__dirname, '/bootstrap')));
 
 /**
  * Routes
