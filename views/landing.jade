@@ -1,0 +1,95 @@
+!!!
+html(lang="en")
+  head
+    title=dekanter
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css")
+    link(href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic", rel="stylesheet", type="text/css")
+    link(href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800", rel="stylesheet", type="text/css")
+    | <style>
+    | .container {
+    | padding-left: 15px;
+    | padding-right: 15px;
+    | }
+    |
+    | h4 {
+    | margin-top: 25px;
+    | }
+    | .row {
+    | margin-bottom: 20px;
+    | }
+    | .row .row {
+    | margin-top: 10px;
+    | margin-bottom: 0;
+    | }
+    | .right {
+    | padding-top: 15px;
+    | padding-bottom: 15px;
+    | border-right: 1px solid #ddd;
+    | border-right: 1px solid rgba(86,61,124,.2);
+    | }
+    |.left {
+    | padding-top: 15px;
+    | padding-bottom: 15px;
+    | border-left: 1px solid #ddd;
+    | border-left: 1px solid rgba(86,61,124,.2);
+    | }
+    | hr {
+    | margin-top: 40px;
+    | margin-bottom: 40px;
+    | }
+    | .burgundy {
+    | color: #850A29;
+    | }
+    | </style>
+  body
+    .navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="#", style="color:#850A29") dekanter
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href="#") Home
+            li
+              a(href="#") About
+            li
+              a(href="#") Contact
+          form.navbar-form.navbar-right
+            .form-group
+              input.form-control(type="text", placeholder="Email")
+            .form-group  
+              input.form-control(type="text", placeholder="Password")
+            button.btn(type="submit") Sign In    
+    .container
+      .jumbotron.marketing
+        h1 Welcome to 
+          | <span class="burgundy"> dekanter</span>
+          |!
+        p.lead dekanter is a revolutionary new way to increase wine sales through learning.
+        button Learn more!
+      .container.marketing
+        .row.featurette
+          .col-md-6.right
+            h2.featurette-heading
+              | <span style="color:#850A29;">dekanter</span>
+              | will have this feature 
+            p.lead.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ultricies odio, eu pellentesque velit. Pellentesque elementum accumsan ligula, quis venenatis est placerat a. Vestibulum pellentesque consequat dolor ac fringilla. Integer blandit dui eu nisl faucibus, consequat hendrerit tortor tempor. Sed in lacinia urna. Quisque eu est quam. Pellentesque iaculis ante vel ipsum sollicitudin hendrerit. Duis cursus, mi vel convallis cursus, metus nisi tempor sapien, id ultricies tellus nisl a tellus. Morbi posuere quis ipsum ut porta. Nullam lobortis mi at metus elementum, ac egestas orci tincidunt. Vestibulum sagittis ultricies eros quis placerat. Fusce purus leo, feugiat at placerat vel, auctor sit amet nulla.
+        .row.featurette
+          .col-md-6.col-md-offset-6.left
+            h2.featurette-heading
+              | <span class="burgundy">dekanter</span>
+              | will also have this feature
+            p.lead.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ultricies odio, eu pellentesque velit. Pellentesque elementum accumsan ligula, quis venenatis est placerat a. Vestibulum pellentesque consequat dolor ac fringilla. Integer blandit dui eu nisl faucibus, consequat hendrerit tortor tempor. Sed in lacinia urna. Quisque eu est quam. Pellentesque iaculis ante vel ipsum sollicitudin hendrerit. Duis cursus, mi vel convallis cursus, metus nisi tempor sapien, id ultricies tellus nisl a tellus. Morbi posuere quis ipsum ut porta. Nullam lobortis mi at metus elementum, ac egestas orci tincidunt. Vestibulum sagittis ultricies eros quis placerat. Fusce purus leo, feugiat at placerat vel, auctor sit amet nulla.
+        .row.featurette
+          .col-md-6.right
+            h2.featurette-heading
+              | <span class="burgundy">dekanter</span>
+              | will have this feature too!
+            p.lead.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ultricies odio, eu pellentesque velit. Pellentesque elementum accumsan ligula, quis venenatis est placerat a. Vestibulum pellentesque consequat dolor ac fringilla. Integer blandit dui eu nisl faucibus, consequat hendrerit tortor tempor. Sed in lacinia urna. Quisque eu est quam. Pellentesque iaculis ante vel ipsum sollicitudin hendrerit. Duis cursus, mi vel convallis cursus, metus nisi tempor sapien, id ultricies tellus nisl a tellus. Morbi posuere quis ipsum ut porta. Nullam lobortis mi at metus elementum, ac egestas orci tincidunt. Vestibulum sagittis ultricies eros quis placerat. Fusce purus leo, feugiat at placerat vel, auctor sit amet nulla.
+    script(src="//code.jquery.com/jquery.js")
+    script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js")
