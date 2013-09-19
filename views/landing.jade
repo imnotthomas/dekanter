@@ -11,9 +11,11 @@ html(lang="en")
     | padding-left: 15px;
     | padding-right: 15px;
     | }
-    |
     | h4 {
     | margin-top: 25px;
+    | }
+    | .jumbotron {
+    | height: 90%;
     | }
     | .row {
     | margin-bottom: 20px;
@@ -67,10 +69,19 @@ html(lang="en")
             button.btn(type="submit") Sign In    
     .container
       .jumbotron
-        h1 Welcome to 
+        h1 Welcome to
           | <span class="burgundy"> dekanter</span>!
-        p.lead dekanter is a revolutionary new way to increase wine sales through learning.
-        button Learn more!
+        p
+          |<small>Increase wine sales, educated servers and bartenders, delights guests</small> 
+         
+        .row
+          .col-md-4
+            img(src="http://placehold.it/350x250")
+          .col-md-4.pull-right  
+            p.lead
+              | <span class="burgundy">dekanter</span>
+              | is a revolutionary new way to increase wine sales through learning.
+            button Learn more!
       .container.marketing
         .row.featurette
           .col-md-6.right
