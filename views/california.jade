@@ -1,1 +1,21 @@
-p hello
+extends layout
+
+block content
+  div.container
+    div.content
+      div.page-header
+        h1 California
+      div.row
+        div.col-md-8
+          .lesson
+            h1 In this lesson you will learn about:
+            ul
+              li The history of wine in California
+              li The major regions of California
+              li The major varietals of California and their characteristics
+              li How to sell wine from California
+            button(type="button", class="btn btn-default") Continue
+        div.col-md-4
+          .well
+            h3 Thomas Altman
+            p $25,942.18 of wine sold
