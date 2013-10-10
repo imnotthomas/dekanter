@@ -28,6 +28,7 @@ app.use(express.static(path.join(__dirname, '/bootstrap')));
 
 app.get("/", routes.index);
 app.get("/landing", routes.landing);
+app.get("/california", routes.california);
 
 /**
  * Listen
