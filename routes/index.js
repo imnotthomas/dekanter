@@ -9,3 +9,7 @@ exports.landing = function(req, res) {
 exports.california = function(req, res) {
     res.render('california');
 };
+
+exports.cali_one = function(req, res) {
+    res.render('cali_one');
+};
