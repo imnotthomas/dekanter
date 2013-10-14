@@ -30,6 +30,11 @@ app.get("/", routes.index);
 app.get("/landing", routes.landing);
 app.get("/california", routes.california);
 app.get("/california/1", routes.cali_one);
+app.get("/california/2", routes.cali_two);
+app.get("/california/3", routes.cali_three);
+app.get("/california/4", routes.cali_four);
+app.get("/california/quiz", routes.cali_quiz);
+app.get("/california/cellar", routes.cali_cellar);
 
 /**
  * Listen
